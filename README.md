@@ -34,3 +34,9 @@ syntax : `$ type COMMAND`
       $ help ls -----> INVALID
 
 However, we can use `--help` flag or option in both shell builtin or executable command
+
+## Linux Command Structure
+
+* We can place one or more white space between the arguments. (IT DOESN"T MATTER)
+* Standard practice is to write `arguments` after the `command` name. For example: `$ ping -c 1 yahoo.com` rather than `$ ping yahoo.com -c 1`
+* We can group short `arguments/options` For example : `$ ls -lh` instead of `$ ls -l -h`. 
