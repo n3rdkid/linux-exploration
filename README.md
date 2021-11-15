@@ -51,7 +51,9 @@ However, we can use `--help` flag or option in both shell builtin or executable 
 
 ### Some useful keyboard shortcuts
 
-`CTRL + L` -> Clear screen (CMD + K on mac) or (`clear` command)
+`CTRL + L` -> Clear screen -> Still scrollable
+
+(CMD + K on mac) or (`clear` command)
 
 `CTRL + D` -> Close the terminal (`exit` command)
 
@@ -64,6 +66,25 @@ However, we can use `--help` flag or option in both shell builtin or executable 
 `CTRL + C` -> Interrupt the process running in the terminal
 
 `Up Arrow / Down Arrow` -> To get navigate commands from history
+
+---
+
+### The Linux terminal history
+
+* Everything is case sensitive in Linux
+
+`$ cat .bash_history`
+
+`$ echo $HISTFILESIZE` by DEFAULT 2000.
+
+* Run `history` command to list them.
+* Run `$ ![COMMAND_NO]` to run the command at `COMMAND_NO` in the history.
+* Run `$ !!` -> Similar to running latest command by running doing up arrow.
+* Run `$ !-[COMMAND_NO]` run from the last.
+* Run the last `command` by doing `$ !command` [CAREFUL can be dangerous]
+* Check before you run the command by running ` $ !command:p` to print the command without running it.
+* Remove from history `$ history -d LINE_NO`
+* Remove entire history `$ history -c`
 
 
 
