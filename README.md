@@ -1,5 +1,7 @@
 # Exploring Linux
 
+Course Reference : [DevOps Bootcamp: Learn Linux & Become a Linux Sysadmin](https://academy.zerotomastery.io/p/devops-bootcamp)
+
 ---
 
 ### The man-page (manual)
