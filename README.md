@@ -1,6 +1,8 @@
 # Exploring Linux
 
-## The man-page (manual)
+---
+
+### The man-page (manual)
 
 description: `man` command in Linux is used to display the user manual of any command that we can run on the terminal
 
@@ -35,8 +37,31 @@ syntax : `$ type COMMAND`
 
 However, we can use `--help` flag or option in both shell builtin or executable command
 
-## Linux Command Structure
+--- 
+
+### Linux Command Structure
 
 * We can place one or more white space between the arguments. (IT DOESN"T MATTER)
 * Standard practice is to write `arguments` after the `command` name. For example: `$ ping -c 1 yahoo.com` rather than `$ ping yahoo.com -c 1`
 * We can group short `arguments/options` For example : `$ ls -lh` instead of `$ ls -l -h`. 
+
+---
+
+### Some useful keyboard shortcuts
+
+`CTRL + L` -> Clear screen (CMD + K on mac) or (`clear` command)
+
+`CTRL + D` -> Close the terminal (`exit` command)
+
+`CTRL + A` -> To move the cursor beginning of the line
+
+`CTRL + E` -> To move to the end of line
+
+`CTRL + U` -> Deletes all characters before the cursor ( Cuts and adds it to the clipboard)
+
+`CTRL + C` -> Interrupt the process running in the terminal
+
+`Up Arrow / Down Arrow` -> To get navigate commands from history
+
+
+
